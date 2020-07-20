@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+
+
+    android:orientation="vertical"
+    tools:context=".About">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:background="@color/Black"
+        android:minHeight="40dp"
+
+        app:subtitleTextColor="@color/white"
+        app:titleTextColor="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arial"
+            android:text="About Developers"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/Ascrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginBottom="28dp"-->
+<!--                android:fontFamily="@font/arial"-->
+<!--                android:paddingStart="20dp"-->
+<!--                android:text="Developers"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/Black"-->
+<!--                android:textSize="25sp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.0"-->
+<!--                app:layout_constraintStart_toStartOf="parent" />-->
+
+            <ImageView
+
+                android:id="@+id/sree_image"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/me"
+                android:contentDescription="todo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="20dp"
+                    android:text="Name"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+/>
+                <TextView
+                    android:id="@+id/textView1aa8"
+                    android:layout_width="150dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="10dp"
+                    android:text="@string/Abc"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    android:id="@+id/textView1e2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="bottom"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="10dp"
+                    android:text="Sreenivas K"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                     />
+
+            </LinearLayout>
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/abc"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:fontFamily="@font/arial"-->
+<!--                    android:paddingStart="20dp"-->
+<!--                    android:text="Class"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:textSize="13sp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textViewww18"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:fontFamily="@font/arial"-->
+<!--                    android:paddingStart="10dp"-->
+<!--                    android:text="@string/Abc"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:textSize="13sp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView12s"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="2dp"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:fontFamily="@font/arial"-->
+<!--                    android:paddingStart="10dp"-->
+
+<!--                    android:text="CSE 3rd Year"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:textSize="13sp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
+
+<!--            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView1s"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="top"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:fontFamily="@font/arial"-->
+<!--                    android:paddingStart="20dp"-->
+<!--                    android:text="College"-->
+
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:textSize="13sp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textViesw18"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="top"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:fontFamily="@font/arial"-->
+<!--                    android:paddingStart="10dp"-->
+<!--                    android:text="@string/Abc"-->
+
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:textSize="13sp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView1w2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="bottom"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:fontFamily="@font/arial"-->
+<!--                    android:paddingStart="10dp"-->
+<!--                    android:text="@string/MTIET"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:textSize="13sp"-->
+
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.0"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/company"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="20dp"
+                    android:text="Company"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+
+                <TextView
+                    android:id="@+id/we"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/arial"
+
+                    android:paddingStart="10dp"
+                    android:text="@string/Abc"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                   />
+
+
+                <TextView
+                    android:id="@+id/dsf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="10dp"
+                    android:text="SteveBrains"
+
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                   />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewe1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="20dp"
+                    android:text="Gmail"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                 />
+
+                <TextView
+                    android:id="@+id/textViessw18"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/arial"
+
+                    android:paddingStart="10dp"
+                    android:text="@string/Abc"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                     />
+
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="10dp"
+                    android:text="stevebrains2019@gmail.com"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                     />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Phone"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="20dp"
+                    android:text="Phone"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                   />
+
+                <TextView
+                    android:id="@+id/textViessw18dg"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/arial"
+
+                    android:paddingStart="10dp"
+                    android:text="@string/Abc"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                     />
+
+
+                <TextView
+                    android:id="@+id/textViewdfg12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="10dp"
+                    android:text="+91 9398195115"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                 />
+
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/arial"
+android:layout_marginTop="30dp"
+                android:paddingStart="15dp"
+                android:text="Follow Us On :"
+                android:textColor="@color/white"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content">
+
+
+                        <!--                        <Button-->
+                        <!--                            android:layout_width="90dp"-->
+                        <!--                            android:layout_height="90dp"-->
+                        <!--                            android:layout_marginStart="20dp"-->
+
+
+                        <!--                            android:background="@color/Red">-->
+
+                        <!--                        </Button>-->
+
+
+                        <!--                        <Button-->
+                        <!--                            android:layout_width="90dp"-->
+                        <!--                            android:layout_height="90dp"-->
+                        <!--                            android:layout_marginStart="20dp"-->
+
+
+                        <!--                            android:background="@color/Red">-->
+
+                        <!--                        </Button>-->
+
+                        <Button
+                            android:id="@+id/follow_insta"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/insta"
+                            android:gravity="center">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/follow_fb"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/fb"
+                            android:elevation="0dp"
+                            android:gravity="center">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/fellow_youtube"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginStart="20dp"
+
+                            android:background="@drawable/youtube"
+                          >
+
+                        </Button>
+
+
+                        <Button
+                            android:id="@+id/play"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_marginStart="20dp"
+
+                            android:background="@drawable/play"
+                            android:gravity="center">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/github"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:elevation="0dp"
+                            android:layout_marginStart="20dp"
+                            android:background="@drawable/github"
+                            android:gravity="center">
+
+                        </Button>
+                        <Space
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"/>
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp">
+
+                </Space>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/arial"
+                    android:paddingStart="15dp"
+                    android:text="Other Apps"
+                    android:textColor="@color/white"
+                    android:textSize="18sp">
+
+                </TextView>
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <Button
+                        android:id="@+id/tb"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/play"
+                        android:gravity="center"
+                        android:paddingStart="20dp">
+
+                    </Button>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="25dp"-->
+            <!--                android:layout_marginTop="30dp"-->
+            <!--                android:fontFamily="@font/arial"-->
+            <!--                android:paddingStart="15dp"-->
+            <!--                android:text="Special Thanks To :: "-->
+            <!--                android:textColor="@color/sree"-->
+            <!--                android:textSize="18sp">-->
+
+            <!--            </TextView>-->
+
+            <!--            <HorizontalScrollView-->
+            <!--                android:id="@+id/hori"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="10dp"-->
+
+            <!--                >-->
+
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal">-->
+
+
+            <!--                    <Space-->
+            <!--                        android:layout_width="15dp"-->
+            <!--                        android:layout_height="20dp" />-->
+
+            <!--                    <LinearLayout-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:orientation="vertical">-->
+
+            <!--                        <ImageView-->
+            <!--                            android:layout_width="90dp"-->
+            <!--                            android:layout_height="90dp"-->
+            <!--                            android:layout_gravity="center"-->
+            <!--                            android:background="@drawable/rama"-->
+            <!--                            android:contentDescription="TODO" />-->
+
+            <!--                        <Space-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="10dp" />-->
+
+            <!--                        <TextView-->
+            <!--                            android:layout_width="wrap_content"-->
+            <!--                            android:layout_height="wrap_content"-->
+            <!--                            android:fontFamily="@font/arial"-->
+            <!--                            android:gravity="center"-->
+            <!--                            android:text="Mr G Rama subba Reddy"-->
+            <!--                            android:textColor="@color/Black"-->
+            <!--                            android:textSize="10sp" />-->
+
+            <!--                        <TextView-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="match_parent"-->
+            <!--                            android:fontFamily="@font/arial"-->
+            <!--                            android:gravity="center"-->
+            <!--                            android:text="Sir"-->
+            <!--                            android:textColor="@color/Black"-->
+            <!--                            android:textSize="12sp" />-->
+
+            <!--                    </LinearLayout>-->
+
+            <!--                    <Space-->
+            <!--                        android:layout_width="15dp"-->
+            <!--                        android:layout_height="match_parent" />-->
+
+            <!--                    <LinearLayout-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:orientation="vertical">-->
+
+
+            <!--                        <ImageView-->
+            <!--                            android:layout_width="90dp"-->
+            <!--                            android:layout_height="90dp"-->
+            <!--                            android:background="@drawable/lokesh"-->
+            <!--                            android:contentDescription="TODO" />-->
+
+            <!--                        <Space-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="10dp" />-->
+
+            <!--                        <TextView-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="match_parent"-->
+            <!--                            android:fontFamily="@font/arial"-->
+            <!--                            android:gravity="center"-->
+            <!--                            android:text="@string/mr_k_lokesh_sir"-->
+            <!--                            android:textColor="@color/Black"-->
+            <!--                            android:textSize="10sp" />-->
+
+            <!--                        <TextView-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="match_parent"-->
+            <!--                            android:fontFamily="@font/arial"-->
+            <!--                            android:gravity="center"-->
+            <!--                            android:text="Sir"-->
+            <!--                            android:textColor="@color/Black"-->
+            <!--                            android:textSize="12sp" />-->
+
+
+            <!--                    </LinearLayout>-->
+
+            <!--                    <Space-->
+            <!--                        android:layout_width="15dp"-->
+            <!--                        android:layout_height="match_parent" />-->
+
+
+            <!--                    <LinearLayout-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:orientation="vertical">-->
+
+
+            <!--                        <ImageView-->
+            <!--                            android:layout_width="90dp"-->
+            <!--                            android:layout_height="90dp"-->
+            <!--                            android:background="@drawable/divya"-->
+            <!--                            android:contentDescription="TODO" />-->
+
+            <!--                        <Space-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="10dp" />-->
+
+            <!--                        <TextView-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="match_parent"-->
+            <!--                            android:fontFamily="@font/arial"-->
+            <!--                            android:gravity="center"-->
+            <!--                            android:text="@string/ms_g_divya_zion_n_mam"-->
+            <!--                            android:textColor="@color/Black"-->
+            <!--                            android:textSize="10sp" />-->
+
+            <!--                        <TextView-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="match_parent"-->
+            <!--                            android:fontFamily="@font/arial"-->
+            <!--                            android:gravity="center"-->
+            <!--                            android:text="mam"-->
+            <!--                            android:textColor="@color/Black"-->
+            <!--                            android:textSize="12sp" />-->
+
+            <!--                    </LinearLayout>-->
+
+            <!--                    <Space-->
+            <!--                        android:layout_width="15dp"-->
+            <!--                        android:layout_height="match_parent" />-->
+
+            <!--                    <LinearLayout-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:orientation="vertical">-->
+
+
+            <!--                        <ImageView-->
+            <!--                            android:layout_width="90dp"-->
+            <!--                            android:layout_height="90dp"-->
+            <!--                            android:background="@drawable/flagwithcse"-->
+            <!--                            android:contentDescription="@string/todo" />-->
+
+            <!--                        <Space-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="10dp" />-->
+
+            <!--                        <TextView-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="match_parent"-->
+            <!--                            android:fontFamily="@font/arial"-->
+            <!--                            android:gravity="center"-->
+            <!--                            android:text="@string/iii_cse_a"-->
+            <!--                            android:textColor="@color/Black"-->
+            <!--                            android:textSize="12sp" />-->
+
+            <!--                        <TextView-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="match_parent"-->
+            <!--                            android:fontFamily="@font/arial"-->
+            <!--                            android:gravity="center"-->
+            <!--                            android:text=""-->
+            <!--                            android:textColor="@color/sree"-->
+            <!--                            android:textSize="10sp" />-->
+
+            <!--                    </LinearLayout>-->
+
+
+            <!--                </LinearLayout>-->
+
+            <!--            </HorizontalScrollView>-->
+
+            <!--            <Space-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="50dp" />-->
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

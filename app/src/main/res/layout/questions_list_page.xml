@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Black"
+android:orientation="vertical"
+    android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="center_vertical"
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".All_Inter_Quations">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+
+
+                android:background="@color/sree"
+                android:minHeight="55dp"
+                app:titleTextColor="@color/white"
+                app:subtitleTextColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SteveBrains"
+                    android:textSize="40sp"
+                    android:textColor="@color/white">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/top_900_interview_questions"
+                    android:textSize="15sp"
+                    android:textColor="@color/white">
+
+                </TextView>
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+
+    android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/java_questions"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/java"
+
+                />
+
+            <Button
+                android:id="@+id/c_questions"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/c"
+                />
+</LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/python_questions"
+                android:layout_width="120dp"
+
+                android:textAllCaps="true"
+
+                android:layout_height="120dp"
+
+            android:layout_margin="20dp"
+
+
+                android:background="@drawable/python"/>
+
+            <Button
+                android:id="@+id/DataStructure_questions"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+
+                android:background="@drawable/ds"
+              />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/android_app_questions"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+
+            android:layout_margin="20dp"
+
+
+
+                android:background="@drawable/android"/>
+
+            <Button
+                android:id="@+id/Linux_questions"
+                android:layout_width="120dp"
+
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+
+
+                android:background="@drawable/linux"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/spring"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:layout_margin="20dp"
+
+android:background="@drawable/spring"
+
+           />
+
+        <Button
+            android:id="@+id/java_spt"
+            android:layout_width="120dp"
+
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+
+
+            android:background="@drawable/js"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/php"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+        android:background="@drawable/php"/>
+
+
+    </LinearLayout>
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+
+
+</LinearLayout>
+
+</ScrollView>
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+

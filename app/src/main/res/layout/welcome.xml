@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:id="@+id/container"
+    android:animateLayoutChanges="true"
+    android:duration="@android:integer/config_longAnimTime"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Black"
+android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:paddingTop="20dp">
+    <!--android:background="@drawable/welcome_back"-->
+
+
+    <ImageView
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="20dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/steve"
+        android:fontFamily="@font/arial"
+
+        android:contentDescription="@string/todo" />
+
+    <!--<Button-->
+        <!--android:id="@+id/TTTTTEst"-->
+        <!--android:layout_width="39dp"-->
+        <!--android:layout_height="18dp"-->
+        <!--android:text="Test" />-->
+
+    <TextView
+        android:id="@+id/hardnoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb"
+
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+
+        android:text="@string/_900_interview_questions"
+        android:textAlignment="center"
+
+
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/hardnoice2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/hardnoice"-->
+
+<!--        android:layout_alignParentStart="true"-->
+
+
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="2dp"-->
+<!--        android:layout_marginTop="1dp"-->
+<!--        android:layout_marginEnd="6dp"-->
+
+<!--        android:text="@string/no_ads"-->
+<!--        android:textAlignment="center"-->
+
+
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="20sp" />-->
+
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!--<item android:id="@+id/back"-->
+        <!--android:title="Back"-->
+        <!--android:orderInCategory="100"-->
+         <!--app:showAsAction="always"-->
+        <!--&gt;-->
+
+    <!--</item>-->
+    <item android:id="@+id/share"
+
+        android:title="Back"
+        android:orderInCategory="100"
+        android:icon="@drawable/share"
+        app:showAsAction="always"
+        >
+
+    </item>
+    <item android:id="@+id/about"
+        android:title="Back"
+        android:orderInCategory="100"
+        android:icon="@drawable/profile"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+
+</menu>
